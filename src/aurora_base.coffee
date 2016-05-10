@@ -7,8 +7,8 @@ exports.EventEmitter = require './core/events'
 exports.UnderflowError = require './core/underflow'
 
 # browserify will replace these with the browser versions
-exports.HTTPSource = require './sources/node/http'
-exports.FileSource = require './sources/node/file'
+exports.HTTPSource = require './sources/browser/http'
+exports.FileSource = require './sources/browser/file'
 exports.BufferSource = require './sources/buffer'
 
 exports.Demuxer = require './demuxer'

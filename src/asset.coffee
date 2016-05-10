@@ -7,8 +7,8 @@
 #
 
 EventEmitter = require './core/events'
-HTTPSource   = require './sources/node/http'
-FileSource   = require './sources/node/file'
+HTTPSource   = require './sources/browser/http'
+FileSource   = require './sources/browser/file'
 BufferSource = require './sources/buffer'
 Demuxer      = require './demuxer'
 Decoder      = require './decoder'
